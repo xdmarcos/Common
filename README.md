@@ -1,2 +1,3 @@
 # Common
-Small suite with commen helpers and data structures
+
+A small suite of common helpers and utilities.
