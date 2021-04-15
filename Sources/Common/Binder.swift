@@ -1,5 +1,5 @@
 //
-//  Core.swift
+//  Binder.swift
 //  Common
 //
 //  Created by xdmgzdev on 29/03/2021.

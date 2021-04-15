@@ -12,3 +12,17 @@ public func DLog(_ message: String, function: String = #function, line: Int = #l
   print(" 🔎 \(function):\(line) - \(message)")
   #endif
 }
+
+@propertyWrapper
+public struct Localized {
+  var value: String = ""
+
+  public init(wrappedValue value: String) {
+    self.wrappedValue = value
+  }
+
+  public var wrappedValue: String {
+    get { value }
+    set { value = newValue.localized }
+  }
+}
